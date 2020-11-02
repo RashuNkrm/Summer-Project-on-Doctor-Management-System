@@ -1,0 +1,78 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+h1{
+	text-align: center;
+	padding: 40px;
+	font-family:  'Staatliches', cursive;
+	color: white;
+	font-size: 20px;
+}
+.register{
+	margin-top:10px;
+	background:rgba(0,0,0,0.7);
+	width: 90%;
+	/*margin: 0px 0px 0px 430px;*/
+	font-size: 20px;
+	font-family: 'Staatliches', cursive;
+	padding: 20px;
+	border-radius: 10px;
+	z-index: 0;
+}
+
+form{
+	margin-left: 50px;
+}
+
+label{
+	color: white;
+	font-family: 'Staatliches', cursive;
+	font-size: 20px;
+}
+
+h2{
+	text-align: center;
+	padding: 40px;
+	font-size: 20px;
+}
+.a{
+	width:300px;
+	height: 30px;
+	border:none;
+	border-radius: 3px;
+	outline: 0;
+	padding: 10px;
+}
+#sub{
+width: 200px;
+padding: 7px;
+font-size: 20px;
+font-family:  'Staatliches', cursive;
+/*font-weight: bold;*/
+border:none;
+border-radius: 3px;
+outline: 0;
+}
+.b{
+	margin: 5px;
+}
+.z{
+	width: 10%;
+}
+#register{
+	margin-left: 50px;
+}
+body{
+	background: url("hospital.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100% 700px;
+}
+.op{
+	width: 300px;
+}
+.echo{
+	color:white;
+
+}

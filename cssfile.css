@@ -1,0 +1,28 @@
+.a{
+	text-align: center;
+	color: black;
+/*	font-weight: bold;*/
+	font-size: 15px;
+
+}
+.a:hover{
+background-color: grey;
+  color: black;
+}
+
+th{
+	background-color: teal;
+	font-family: 'Staatliches', cursive;
+	font-weight: bold;
+	padding: 10px;
+}
+button{
+	width: 200px;
+	background-color: teal;
+	font-size: 20px;
+	list-style-type: none;
+}
+button:hover{
+	background-color: red;
+
+}

@@ -1,0 +1,123 @@
+.header{
+	 background-color: teal;
+   /*background: transparent; */
+  padding-top:20px;
+  text-align: center;
+  color: black;
+  width:100%;
+  z-index:1;
+}
+body {
+  margin: 0;
+   /*background: url("hospital.png");*/
+   background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100% 700px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #5F9EA0;
+  /*background: transparent;*/
+  z-index: 2;
+  top:160px;
+  width:100%;
+  
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: #000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#demo ul{
+  list-style-type: none;
+}
+#demo a
+{
+  color:teal;
+}
+#demo a:hover{
+  text-decoration:none;
+  color:red;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: red;
+  color: black;
+  text-decoration: none;
+}
+* {
+  box-sizing: border-box;
+}
+.col {
+  float: right;
+  width: 15%;
+  padding: 5px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+ .li{
+  text-decoration: none;
+  list-style-type: none; 
+ 
+ }
+ .ul{
+  list-style-type: none;
+ }
+ 
+.navbar {
+      margin-bottom: 0;
+       font-size: 20px;
+      font-weight: bold;
+      border-radius: 0;
+
+    }
+   .drop a{
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    
+    color: red;
+   }
+   .drop{
+    font-size: 20px;
+    font-weight: bold;
+
+   }
+
+   
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #4682B4;
+      padding: 25px;
+      color: #fff;
+      font-size: 15px;
+    }
+    
+  .carousel-inner img {
+      width: 150%; /* Set width to 100% */
+      margin: auto;
+      max-height:600px;
+  }
+
+  /* Hide the carousel text when the screen is less than 600 pixels wide */
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; 
+    }
+  }
+  

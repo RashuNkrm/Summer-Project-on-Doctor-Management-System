@@ -1,0 +1,72 @@
+body{
+	margin:0px;
+	padding:0px;
+	background-size:  100% 700px;
+	background-position: center;
+	font-family: 'Staatliches', cursive;;
+	background-image: url("hospital.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.login-box{
+	width:320px;
+	height:550px;
+	background: rgba(1,2,3,0.7);
+	color: #fff;
+	top: 5%;
+	left: 35%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 50px 30px;
+	margin-top: 25%;
+	margin-left: 20%;
+	
+	}
+
+	
+h1{
+	margin:0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 22px;
+}
+.login-box input{
+	width: 100%;
+	margin-bottom: 20px;
+	color: black;
+	height: 20px;
+}
+.login-box input[type="text"],input[type="email"]{
+	color: #fff;
+	border:none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline:none;
+	height: 40px;
+	font-size: 16px;
+}
+.login-box input[type="submit"]{
+	border:none;
+	outline:none;
+	height: 40px;
+	background:red;
+	font-size: 18px;
+	border-radius: 30px;
+}
+.login-box input[type="submit"]:hover{
+	cursor: pointer;
+	background: blue;
+	color: #000;
+}
+label{
+	font-weight: bold;
+	font-size: 22px;
+}
+a{
+	color: white;
+}
+.op{
+	width: 100%;
+	color: black;
+}
